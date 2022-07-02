@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.nav_container{
+    /* background-image: url(images/Titled1.png);
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 2000px; */
+    background-color: #333336;
+    height: 80px;
+}
+button{
+    color: #777777;
+    background-color: #333336;
+    border-width: 0;
+    width: 150px;
+    height: 80px;
+    font-size: 32px;
+    transition-duration: 500ms;
+    
+}
+button:hover{
+    background-color: #333336;
+    color: #cacaca;
+}
+.button{
+    margin-bottom: 0px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button a:hover {
+    color: #cacaca
+}
+.buttons{
+display:flex;
+    justify-content: space-around;
+}
+.body_cunt{
+    background-color: #222226;
+    height: 1900px;
+}
