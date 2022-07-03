@@ -164,38 +164,6 @@ body{
     margin-top: 272px;
 } */
 
-.img2{
-    display: flex;
-    /* margin-top: 1350px; */
-    margin-top: 144.5vh;
-    /* margin-left: 680px; */
-    margin-left: 72.5vh;
-    list-style-type: none;
-    padding-left: 0;
-    /* margin-bottom: 15px; */
-    margin-bottom: 1.5vh;
-    font-size: 20px;
-    flex-direction: row;
-}
-
-.img2 li {
-    display: inline-block;
-}
-
-.img2 li a {
-    display: inline-block;
-    color: white;
-    opacity: 0.8;
-    text-decoration: none;
-    /* padding: 5px; */
-    padding: 0.53vh;
-    transition: all .1s ease-in-out;
-    /* margin-right: 270px; */
-}
-
-.img2 li a:hover {
-    opacity: 1;
-}
 
 .text {
     /* padding: 50px; */
