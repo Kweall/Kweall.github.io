@@ -166,11 +166,14 @@ body{
 
 .img2{
     display: flex;
-    margin-top: 1350px;
-    margin-left: 680px;
+    /* margin-top: 1350px; */
+    margin-top: 144.5vh;
+    /* margin-left: 680px; */
+    margin-left: 72.5vh;
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1.5vh;
     font-size: 20px;
     flex-direction: row;
 }
@@ -184,7 +187,8 @@ body{
     color: white;
     opacity: 0.8;
     text-decoration: none;
-    padding: 5px;
+    /* padding: 5px; */
+    padding: 0.53vh;
     transition: all .1s ease-in-out;
     /* margin-right: 270px; */
 }
@@ -194,13 +198,16 @@ body{
 }
 
 .text {
-    padding: 50px;
+    /* padding: 50px; */
+    padding: 5.2vh;
     font-size: 20px;
     /* transition-duration: 500ms; */
     font-family: 'Noto Sans', sans-serif;
-    line-height: 35px;
+    /* line-height: 35px; */
+    line-height: 3.8vh;
     /* background-color: black; */
-    text-indent: 25px;
+    /* text-indent: 25px; */
+    text-indent: 2.7vh;
 }
 
 .text-k {
