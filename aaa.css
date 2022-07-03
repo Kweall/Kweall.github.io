@@ -10,7 +10,7 @@ body{
 	font-size: 16px;
 	line-height: 1.4;
 	color: #000;
-	min-width: 320px;
+	/* min-width: 320px; */
 	overflow-x: hidden;
 	height: auto;
     margin: 0;
@@ -18,13 +18,16 @@ body{
 
 .nav_container{
     background-color: #333336;
-    height: 80px;
+    /* height: 80px; */
 }
 
 
 .body_untitled-2{
     background-image: url(images/jopa2.png);
     height: 1500px;
+    /* height: 100%; */
+    /* position: inherit; */
+    
 }
 
 .body_about-me{
@@ -54,13 +57,15 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: 2.5%;
 }
 
 .navbar-menu {
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1%;
     font-size: 20px;
 }
 
