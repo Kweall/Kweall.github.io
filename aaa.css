@@ -224,3 +224,88 @@ body{
 .copyright{
     margin-left:93%;
 }
+
+.img3{
+    /* background-image: url(images/calc.gif); */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    /* margin-top: 1350px; */
+    margin-top: -110vh;
+    /* margin-left: 680px; */
+    margin-left: 15vh;
+    list-style-type: none;
+    padding-left: 0;
+    /* margin-bottom: 15px; */
+    margin-bottom: 1.5vh;
+    font-size: 20px;
+    flex-direction: row;
+    padding-left: 3vh;
+    padding-top: 10vh;
+}
+
+.img3 li {
+    display: inline-block;
+}
+
+.img3 li a {
+    display: inline-block;
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    padding-inline: 5vh;
+    /* padding: 5px; */
+    /* padding-inline: 5vh;
+    padding-left: 3vh;
+    padding-top: 10vh; */
+    transition: all .1s ease-in-out;
+    /* margin-right: 270px; */
+}
+
+.img3 li a:hover {
+    /* opacity: 1;
+    background-image: url(images/calc.gif);
+    width: 100px;
+    height: 100px;
+    -webkit-border-image: url(images/calc.gif);
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-fill-mode: both; */
+}
+
+/* .navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #777777;
+    transition: all .1s ease-in-out;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.navbar-brand:hover {
+    background: url(images/rainbow.jpg) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
